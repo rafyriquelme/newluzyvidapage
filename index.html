@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iglesia Luz y Vida – Iglesia Reformada en Puerto Rico</title>
+  <meta name="description" content="Iglesia Luz y Vida es una iglesia reformada en Puerto Rico comprometida con la Palabra de Dios, los sacramentos, y la comunidad fiel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo">
+        <div class="logo-text">
+          <span class="logo-main">Iglesia Luz y Vida</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Quiénes somos</a></li>
+          <li><a href="#sermones">Sermones</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto" class="nav-cta">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+
+    <!-- ── Background slideshow ──────────────────────────────────────────
+        The slides are semi-transparent so the navy background always
+         shows through. Opacity can be adjusted in styles.css (.hero-slide).
+    ─────────────────────────────────────────────────────────────────── -->
+    <div class="hero-slides" aria-hidden="true">
+      <div class="hero-slide" style="background-image:url('img/hero-1.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/hero-2.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/hero-3.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/hero-4.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/hero-5.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/hero-6.jpg')"></div>
+    </div>
+
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">Reformada · Puerto Rico</p>
+      <h1 class="hero-title">Iglesia<br /><span style="color: var(--gold)">Luz y Vida</span></h1>
+      <p class="hero-verse">
+        "Porque en ti está la fuente de la vida;<br />en tu luz veremos la luz."
+        <span class="verse-ref">— Salmo 36:9</span>
+      </p>
+      <div class="hero-buttons">
+        <a href="#servicios" class="btn btn-primary">Acompáñanos</a>
+        <a href="#nosotros" class="btn btn-outline">Conócenos</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== WELCOME STRIP ===== -->
+  <section class="welcome-strip">
+    <div class="container welcome-grid">
+      <div class="welcome-item">
+        <div class="welcome-icon"><i class="ri-book-open-line"></i> </div>
+        <h3>Fieles a la Escritura</h3>
+        <p>Creemos que toda la Biblia es la Palabra inspirada e infalible de Dios.</p>
+      </div>
+      <div class="welcome-item">
+        <div class="welcome-icon">✝</div>
+        <h3>Tradición Reformada</h3>
+        <p>Nos identificamos con las confesiones históricas de la fe protestante.</p>
+      </div>
+      <div class="welcome-item">
+        <div class="welcome-icon"><i class="ri-service-line"></i></div>
+        <h3>Comunidad de Amor</h3>
+        <p>Somos una familia que se apoya mutuamente en Cristo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / BELIEFS ===== -->
+  <section class="section" id="nosotros">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Quiénes somos</p>
+        <h2 class="section-title">Nuestra Fe &amp; Creencias</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            <strong>Iglesia Luz y Vida</strong> es una congregación reformada en Puerto Rico que proclama el evangelio de Jesucristo según las Sagradas Escrituras. Somos una iglesia que se regocija en las doctrinas de la gracia, y sostenemos los pilares teológicos conocidos históricamente como las <em>Cinco Solas</em> de la Reforma.
+          </p>
+          <ul class="solas-list">
+            <li><strong>Sola Scriptura</strong> — Solo la Escritura</li>
+            <li><strong>Sola Gratia</strong> — Solo la Gracia</li>
+            <li><strong>Sola Fide</strong> — Solo la Fe</li>
+            <li><strong>Solus Christus</strong> — Solo Cristo</li>
+            <li><strong>Soli Deo Gloria</strong> — Solo a Dios la Gloria</li>
+          </ul>
+          <p>
+            Nuestra adoración es ordenada por la Palabra de Dios, y nuestro gobierno es presbiteriano. Nos adherimos a la <strong>Confesión de Fe de Westminster</strong>, junto con su Catecismo Mayor y Menor.
+          </p>
+        </div>
+
+        <div class="pastor-card">
+          <div class="pastor-img-placeholder">
+            <img src="pastor.jpg">
+          </div>
+          <div class="pastor-info">
+            <p class="pastor-label">Pastor Principal</p>
+            <h3 class="pastor-name">Rev. Richard Barnes</h3>
+            <p class="pastor-bio">
+              El pastor Richard Barnes sirve a nuestra congregación con fidelidad a la Palabra y amor por el pueblo de Dios. Ha servido en Puerto Rico desde [año].
+            </p>
+            <a href="#contacto" class="btn btn-secondary">Escribir al Pastor</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERMONS ===== -->
+  <section class="section section-dark" id="sermones">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Edificación</p>
+        <h2 class="section-title">Sermones Recientes</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="sermons-grid">
+
+        <article class="sermon-card">
+          <div class="sermon-card-header">
+            <span class="sermon-series">Serie Adviento y Navidad</span>
+            <span class="sermon-date">21 dic 2025</span>
+          </div>
+          <h3 class="sermon-title">"La Muerte Predicha"</h3>
+          <p class="sermon-ref">Isaías 52:10-53:12</p>
+          <p class="sermon-preacher">Rev. Richard Barnes</p>
+          <div class="sermon-video-wrap" data-yt="https://www.youtube.com/watch?v=9idq--KMnY8"></div>
+        </article>
+
+        <article class="sermon-card">
+          <div class="sermon-card-header">
+            <span class="sermon-series">Serie Adviento y Navidad</span>
+            <span class="sermon-date">28 dic 2025</span>
+          </div>
+          <h3 class="sermon-title">"El Reino Predicho"</h3>
+          <p class="sermon-ref">Isaías 9:1-7</p>
+          <p class="sermon-preacher">Rev. Richard Barnes</p>
+          <!-- Paste the full YouTube URL or just the video ID in data-yt -->
+          <div class="sermon-video-wrap" data-yt="https://www.youtube.com/watch?v=MTLTRKBrj3A"></div>
+        </article>
+      </div>
+
+      <div class="sermons-footer">
+        <a href="#" class="btn btn-outline-light">Ver Todos los Sermones</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICE TIMES & LOCATION ===== -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Visítanos</p>
+        <h2 class="section-title">Horarios &amp; Ubicación</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="services-grid">
+        <div class="schedule-card">
+          <h3>Horario de Servicios</h3>
+          <ul class="schedule-list">
+            <li>
+              <div class="schedule-day">Domingo</div>
+              <div class="schedule-details">
+                <span>Escuela Dominical</span>
+                <span class="schedule-time">10:00 AM</span>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-day">Domingo</div>
+              <div class="schedule-details">
+                <span>Culto de Adoración</span>
+                <span class="schedule-time">11:00 AM</span>
+              </div>
+            </li>
+            <li>
+              <div class="schedule-day">Viernes</div>
+              <div class="schedule-details">
+                <span>Estudio Bíblico de Apocalipsis</span>
+                <span class="schedule-time">6:30 PM</span>
+              </div>
+            </li>
+          </ul>
+          <p class="schedule-note">Todos son bienvenidos. No se requiere registro previo.</p>
+        </div>
+
+        <div class="location-card">
+          <h3>Dónde Encontrarnos</h3>
+          <address>
+            <p class="location-address">
+              Sector Palache, Carr. 638, Ramal 658 Km 0.9<br />
+              Arecibo, Puerto Rico 00612
+            </p>
+          </address>
+          <div class="map-embed">
+            <iframe
+              src="https://maps.google.com/maps?q=18.4367799,-66.6662946&z=17&output=embed"
+              width="100%" height="100%"
+              style="border:0;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación de la Iglesia Luz y Vida">
+            </iframe>
+          </div>
+          <a href="https://maps.app.goo.gl/iDaJguE5dAHbqHdUA" target="_blank" rel="noopener" class="btn btn-secondary">
+            Cómo Llegar
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-cream" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Estamos aquí</p>
+        <h2 class="section-title">Contáctanos</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Información de Contacto</h3>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon">📧</span>
+              <a href="mailto:info@luzyvidapr.com">info@luzyvidapr.com</a>
+            </li>
+            <li>
+              <span class="contact-icon">📞</span>
+              <a href="tel:+17870000000">(787) 000-0000</a>
+            </li>
+            <li>
+              <span class="contact-icon">📍</span>
+              <span>Sector Palache, Carr. 638, Ramal 658 Km 0.9<br>
+              Arecibo, Puerto Rico 00612</span>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="https://www.facebook.com/iglesiabautistafundamentaluzyvida" aria-label="Facebook" class="social-btn">f</a>
+            <a href="#" aria-label="YouTube" class="social-btn">▶</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" placeholder="Su nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="su@correo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <select id="subject" name="subject">
+              <option value="">Seleccione un asunto…</option>
+              <option value="visita">Quiero visitar la iglesia</option>
+              <option value="pastoral">Consulta pastoral</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escriba su mensaje aquí…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+          <p class="form-success" id="form-success" hidden>
+            ✓ Mensaje enviado. Nos comunicaremos pronto.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span>Iglesia Luz y Vida</span>
+      </div>
+      <p class="footer-verse">"Soli Deo Gloria"</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quiénes somos</a>
+        <a href="#sermones">Sermones</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Iglesia Luz y Vida, Puerto Rico. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
