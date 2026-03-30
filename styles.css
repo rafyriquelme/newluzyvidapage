@@ -257,7 +257,7 @@ a:hover { color: var(--gold); }
   background-position: center center;
   /* Semi-transparent: navy background shows through, image still readable.
      Increase toward 0.30 for a stronger image, lower toward 0.10 for subtler. */
-  opacity: 0.6;
+  opacity: 0.20;
   transform: translateX(100%);   /* start off-screen to the right */
   will-change: transform;
 }
